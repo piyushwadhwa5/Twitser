@@ -1,0 +1,47 @@
+﻿body 
+{
+    background-color:DarkSlateBlue;
+}
+#Label15
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+.connect
+{
+    margin-left:auto;
+    margin-right:auto;
+    color:#fff;
+    font-size:20px;
+    line-height:25px;
+}
+.welcome
+{
+    color:White;
+    text-align:center;
+    font-size:22px;
+    line-height:25px;
+}
+#TabContainer1
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+#TabContainer1 img
+{
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;    
+}
+.ui1,.ui2
+{
+    float:left;
+}
+.ui1
+{
+    width:20%;
+}
+.ui2
+{
+    width:45%;
+}
