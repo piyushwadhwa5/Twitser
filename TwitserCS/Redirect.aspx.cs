@@ -10,8 +10,8 @@ public partial class Default2 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        string ckey = "qWBYJCeE71d9Yhqgt6JDQ";
-        string csec = "eofIL3PIPFdnfTIS7HGh4CNU0vwOkmqZyvgo24dA";
+        string ckey="Your_Client_key";
+        string csec="Your Client Secret";
         OAuthTokenResponse tokens = OAuthUtility.GetAccessTokenDuringCallback(ckey, csec);
         Session["tokenS"] = tokens.Token;
         Session["Atoken"] = tokens.TokenSecret;
